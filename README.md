@@ -1,80 +1,13 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
-<a name="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">Best-README-Template</h3>
-
-  <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
-  </p>
-</div>
-
-
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
     </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
+     <li><a href="#installation">Installation</a></li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -82,77 +15,80 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+Проект построен с помощью dbeaver и postgresql.
+Вашему вниманию представляется база данных лабаратория "Z".
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![1](https://user-images.githubusercontent.com/114744529/195982416-8aac569e-4b81-4be9-93b8-709a4869a2ad.PNG)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-### Built With
-
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+<!-- PREREQUISITES -->
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+Перед тем как приступить к загрузке базы данных, у вас должен быть установлен Dbeaver и Postgresql. 
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+Установка расписана по шагам:
+  #### 1 шаг 
+  
+    Откройте dbeaver.
+    
+![2](https://user-images.githubusercontent.com/114744529/195982988-d53dcc4f-9c82-4106-9b3b-8c645abc4372.PNG)
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+  #### 2 шаг 
+  
+    Создайте новое соединение, нажав на вилку с зеленым плюсиком. 
+    
+![3](https://user-images.githubusercontent.com/114744529/195983062-10e85faf-554c-442c-ba60-903b8e5a65af.PNG)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+  #### 3 шаг
+  
+    Выберите тип соединения postgresql и установите его.
+    
+![4](https://user-images.githubusercontent.com/114744529/195983330-185d804c-af6c-42a0-9686-7be8c9fe2425.PNG)
+
+  #### 4 шаг
+  
+    Настройте соединение, введите праоль который использовали во время установке postgresql и нажмите готово.
+    
+![5](https://user-images.githubusercontent.com/114744529/195983433-585fefe1-a985-47d0-a782-1749227661c5.PNG)
+
+  #### 5 шаг
+  
+    Откройте вкладку редактор sql, и выберите новый редактор sql. 
+    
+![8](https://user-images.githubusercontent.com/114744529/195983808-24f221e2-879b-4e09-9b66-07528d2fe72a.PNG)
+
+  #### 6 шаг
+    
+    Открываем скрипт(txt файл или sql) прикрепленный в репозитории, копируем все содержимое и вставляем в редактор который открыли ранее.
+    
+![9](https://user-images.githubusercontent.com/114744529/195983980-fb7df0f4-fe1d-45ae-8fa9-6bd91e19d14d.PNG)
+   
+  #### 7 шаг
+  
+    Меняем строчку user24 на вашего пользователя или postgres.
+  
+![image](https://user-images.githubusercontent.com/114744529/195984029-7d05c884-c7fe-46f4-bde5-48a070ff770a.png)
 
 
+  #### 8 шаг
+  
+    Нажимаем выполнить скрипт.
 
+![11](https://user-images.githubusercontent.com/114744529/195984125-a462005b-6228-47c2-855e-104f90a31728.PNG)
+
+
+  #### 9 шаг 
+  
+    Открываем вкладку файл, и нажимаем обновить или нажмите F5(Если ничего не поменялось во вкладке базы данных то перезапустите Dbeaver).
+    
+![12](https://user-images.githubusercontent.com/114744529/195984180-6a4fc708-d630-464e-8609-7a7014635d44.PNG)
+
+  #### 10 шаг
+    
+    Откройте 
+    
 <!-- USAGE EXAMPLES -->
 ## Usage
 
